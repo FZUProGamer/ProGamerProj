@@ -4,19 +4,19 @@ using UnityEngine;
 
 public class ChildWord : MonoBehaviour
 {
-    // private Word[] wordAry;
-    // [SerializeField]private List<GameObject> lineList;
+    private Word[] wordAry;
+    [SerializeField]private List<GameObject> lineList;
 
-    // private void Start()
-    // {
-    //     wordAry = GetComponentsInChildren<Word>();
+    private void Start()
+    {
+        wordAry = GetComponentsInChildren<Word>();
 
-    //     int index = 0;
+        int index = 0;
 
-    //     foreach (var item in wordAry)
-    //     {
-    //         item.Line = lineList[index];
-    //         index++;    
-    //     }
-    // }
+        foreach (var item in wordAry)
+        {
+            item.Line = lineList[index];
+            index++;    
+        }
+    }
 }

@@ -38,7 +38,7 @@ public class GameManager : Singleton<GameManager>
     protected override void Awake()
     {
         base.Awake();
-        //saveSystem = new SaveSystem();
+        saveSystem = new SaveSystem();
     }
 
     //新游戏按钮的具体实现

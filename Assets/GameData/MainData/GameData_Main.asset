@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b3d46978b2366f408054a22a89c988b, type: 3}
+  m_Name: GameData_Main
+  m_EditorClassIdentifier: 
+  playerPosition_x: 0
+  playerPosition_y: -9.8
+  playerPosition_z: -99.33
+  newGame: 1
+  jianZi_Completed: 0
+  chopping_Completed: 0
+  zhiMo_Completed: 0
+  fanZi_Completed: 0
+  keZi_Completed: 0
+  shuaMo_Completed: 0
