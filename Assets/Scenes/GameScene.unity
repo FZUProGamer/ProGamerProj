@@ -180,6 +180,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 158560542}
+  - component: {fileID: 158560543}
   m_Layer: 0
   m_Name: AudioManager
   m_TagString: Untagged
@@ -202,6 +203,25 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1667428566}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &158560543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 158560541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b751807d2c6ce142a25425769f4e0ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chopping: {fileID: 8300000, guid: a78c23a6ad085f747b9613563fa3d01f, type: 3}
+  walking: {fileID: 8300000, guid: bb22b73254957ef49957f41fd9ec3448, type: 3}
+  ambient: {fileID: 8300000, guid: f726a0d29b34383449b0902ad9f54a09, type: 3}
+  music: {fileID: 0}
+  btn: {fileID: 8300000, guid: bb406a83320d4ae4aa212ea89016e27f, type: 3}
+  daMo: {fileID: 0}
+  zhiMo: {fileID: 0}
 --- !u!1001 &201922180
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -264,6 +284,110 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7369063504715119508, guid: 19f720c003bef1941803727729ba612c, type: 3}
   m_PrefabInstance: {fileID: 201922180}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &348344261
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 348344262}
+  - component: {fileID: 348344263}
+  - component: {fileID: 348344264}
+  m_Layer: 0
+  m_Name: ZhiMo_Teleport
+  m_TagString: Teleport
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &348344262
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 348344261}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 19.48, y: -7.05, z: -42.42}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &348344263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 348344261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8760f2e523a12264c9c9bb1843b609f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nonGameTextFile: {fileID: 4900000, guid: 973bffc38491b3342a5319a89879635f, type: 3}
+  cantTextFile: {fileID: 4900000, guid: 356d14db78637b84f92a9bf1d3596399, type: 3}
+  sceneTo: ZhiMo_Scene
+  isComplete: 0
+  canPlay: 0
+  lastLevel: {fileID: 0}
+  lastLevel_key: Chopping
+--- !u!65 &348344264
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 348344261}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.54502, y: 3.698198, z: 9.113209}
+  m_Center: {x: 0.3049488, y: -1.349099, z: 0.1017551}
+--- !u!1 &547405936
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 547405937}
+  m_Layer: 0
+  m_Name: -----Teleports-----
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &547405937
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 547405936}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &629021869
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1279,3 +1403,5 @@ SceneRoots:
   - {fileID: 1667428566}
   - {fileID: 713887730}
   - {fileID: 1492501727}
+  - {fileID: 547405937}
+  - {fileID: 348344262}

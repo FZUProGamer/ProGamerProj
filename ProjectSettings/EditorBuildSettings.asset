@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GameScene.unity
     guid: a84f8d07eb036374e954f50744a8b076
+  - enabled: 1
+    path: Assets/Scenes/JianZi_Scene.unity
+    guid: 9261e39f29f48374ca49768ca0811720
+  - enabled: 1
+    path: Assets/Scenes/ZhiMo_Scene.unity
+    guid: aae8b9f812e51464cb12c9150dede3b1
   m_configObjects: {}
