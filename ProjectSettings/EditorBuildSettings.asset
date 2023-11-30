@@ -17,4 +17,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ZhiMo_Scene.unity
     guid: aae8b9f812e51464cb12c9150dede3b1
+  - enabled: 1
+    path: Assets/Scenes/ShuaMo_Scene.unity
+    guid: 6fdffed992bbdf8469b6ebd6c3d23bb0
+  - enabled: 1
+    path: Assets/Scenes/KeZi_Scene.unity
+    guid: 29beb76b60b26084b89a0830d1a6f9bd
+  - enabled: 1
+    path: Assets/Scenes/FanZi_Scene.unity
+    guid: a174502dc2662e54cb07bc5640ebf363
   m_configObjects: {}

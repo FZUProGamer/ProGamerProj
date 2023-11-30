@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3664a0be9871a94a9118fccc02280aa, type: 3}
+  m_Name: GameData_FanZi_SO
+  m_EditorClassIdentifier: 
+  wordsList:
+  - questionImage: {fileID: 21300000, guid: 028dc994337623e4783a8158119d3543, type: 3}
+    correctImage: {fileID: 21300000, guid: fc2c18bd356be5d41b37a82f912ccea0, type: 3}
+    imageList:
+    - {fileID: 21300000, guid: e788d5ab7f5c2cc4b8dd7bdf146c8730, type: 3}
+    - {fileID: 21300000, guid: f24ad163a004e86459d8afa93566ca93, type: 3}
+    - {fileID: 21300000, guid: 5c21ecf561323724ea7c28dea0973af2, type: 3}
+  - questionImage: {fileID: 21300000, guid: 0a740640b09b48c4e92354c055e589fc, type: 3}
+    correctImage: {fileID: 21300000, guid: 0b0508f0bff670940b633f2511eeb9ee, type: 3}
+    imageList:
+    - {fileID: 21300000, guid: 974d02154f52653439baf46799efdc4a, type: 3}
+    - {fileID: 21300000, guid: 4cf24920168a4d441a99c710571c0681, type: 3}
+    - {fileID: 21300000, guid: 44c62e89c0655b04b9f36b59ac0335c9, type: 3}
+  - questionImage: {fileID: 21300000, guid: 8506e78547717064eb8be1d0e8e5801e, type: 3}
+    correctImage: {fileID: 21300000, guid: 6e84c6bcd97433f45b2861b41f1df32a, type: 3}
+    imageList:
+    - {fileID: 21300000, guid: bddbf41edbc8f3d49b25141cba1c5aba, type: 3}
+    - {fileID: 21300000, guid: 8cd265f24fb7e5f4f96713be86b12ff3, type: 3}
+    - {fileID: 21300000, guid: 114afbb181981ec4fbcb9a52dc1200bb, type: 3}
+  - questionImage: {fileID: 21300000, guid: e8c7176ce0c3d6b44b7428bcdd0d4c4d, type: 3}
+    correctImage: {fileID: 21300000, guid: 06c5c2d98a196e145bfae43efded3e32, type: 3}
+    imageList:
+    - {fileID: 21300000, guid: 31aecc20f892a4d4b8084b685cef0e81, type: 3}
+    - {fileID: 21300000, guid: 09df13fbe0e79674aa4981060846a961, type: 3}
+    - {fileID: 21300000, guid: 980f51849d82f3f4d9bee5ae892eb42c, type: 3}
+  - questionImage: {fileID: 21300000, guid: c047d00b8b25c774b8aae8a18a1434fc, type: 3}
+    correctImage: {fileID: 21300000, guid: 54345166e5ed0104bb73aebc0e816db0, type: 3}
+    imageList:
+    - {fileID: 21300000, guid: e48562a0c32129e419b7f1af4f755e35, type: 3}
+    - {fileID: 21300000, guid: b8000c601e125fb458b8c48b59c40bc0, type: 3}
+    - {fileID: 21300000, guid: a178021fd85396b46960d27452fdcebf, type: 3}
+  - questionImage: {fileID: 21300000, guid: 6a4a098a9223cfd468f7dc56b5613f49, type: 3}
+    correctImage: {fileID: 21300000, guid: f8c1f5e9e664d94408a5536d3606153d, type: 3}
+    imageList:
+    - {fileID: 21300000, guid: be76cd76117023341a49b04b6df2159c, type: 3}
+    - {fileID: 21300000, guid: d5e35fb7868fa90408ac7ecff165ec2d, type: 3}
+    - {fileID: 21300000, guid: 0ab3faf0e5cd6d4499a0ce5115c8bde0, type: 3}
